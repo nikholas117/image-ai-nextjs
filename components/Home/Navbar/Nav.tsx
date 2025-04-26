@@ -36,7 +36,7 @@ const Nav = ({ openNav }: Props) => {
           return (
             <Link
               key={link.id}
-              href={link.url}
+              href={"/"}
               className="relative text-white text-base w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center "
             >
               <p>{link.label}</p>
