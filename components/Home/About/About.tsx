@@ -30,7 +30,7 @@ const About = () => {
             expertise with cutting-edge solutions to drive your success.
           </p>
           <Button
-            className="bg-cyan-700 hover:bg-cyan-300 w-36 h-12 text-base uppercase"
+            className="bg-cyan-700 hover:bg-cyan-600 w-36 h-12 text-base uppercase"
             size={"lg"}
           >
             About Us
