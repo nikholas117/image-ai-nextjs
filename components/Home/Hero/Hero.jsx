@@ -54,17 +54,10 @@ const Hero = () => {
     <div className="w-[95%] min-h-screen relative mx-auto mt-[20vh] ">
       {/* content */}
       <div className="relative z-10 text-white flex flex-col items-center justify-center">
-        <h1
-          data-aos="fade-up"
-          className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center bg-gradient-to-r from-orange-300 to-cyan-500 bg-clip-text text-transparent"
-        >
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center bg-gradient-to-r from-orange-300 to-cyan-500 bg-clip-text text-transparent">
           Create Beautiful Image with <br /> Artificial Intelligence{" "}
         </h1>
-        <p
-          data-aos="fade-up"
-          data-aos-delay="100"
-          className="mt-3 text-sm md:text-base font-semibold text-center text-gray-300"
-        >
+        <p className="mt-3 text-sm md:text-base font-semibold text-center text-gray-300">
           Get started with our AI-powered image generator tools
         </p>
         {/* Propmt input box */}

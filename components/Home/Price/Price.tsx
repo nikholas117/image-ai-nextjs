@@ -45,11 +45,7 @@ const Price = () => {
           <div data-aos="fade-right" data-aos-anchor-placement="top-center">
             <PriceCard price="4" user="1" type="Silver Pack" />
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-anchor-placement="top-center"
-            data-aos-delay="100"
-          >
+          <div>
             <PriceCard price="8" user="3" type="Golden Pack" />
           </div>
         </div>
